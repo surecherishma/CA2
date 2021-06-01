@@ -111,15 +111,7 @@ covid <- na.omit(covid)
 missing_values <- aggr(covid, prop = FALSE, numbers = TRUE)
 summary(covid)
 detach(covid)
-
-#########3333###############################################################################################
-#unique(continent)
-
-#attach(covid)
-
-#covid <- subset.data.frame(covid,!is.na(population_density), select = -c(continent, iso_code))
-
-##########################################################################################################################
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #To find the correlation between the variables
 
